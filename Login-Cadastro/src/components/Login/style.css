@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2.5rem;
+    max-width: 50rem;
+    background-color: #f8f8f8;
+    padding: 5rem;
+
+    border-radius: .8rem;
+}
+
+.container h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.container ::placeholder{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+    color: rgb(180, 180, 180);
+}
+
+
+.container input{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1.3rem;
+    border: 2px solid gray;
+    border-radius: .8rem;
+    width: 100%;
+}
+
+.container button{
+    font-size: 1.5rem;
+
+    padding: 2rem;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: .8rem;
+
+    color: white;
+    background-color: rgb(59, 59, 59);
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.container button:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
